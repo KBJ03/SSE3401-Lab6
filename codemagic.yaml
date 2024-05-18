@@ -41,11 +41,11 @@
         - build/**/outputs/**/*.aab
         - build/**/outputs/**/mapping.txt
         - flutter_drive.log
-
       publishing:
         email:
           recipients:
             - 215382@student.upm.edu.my
+            - kengyap@upm.edu.my
           notify:
             success: true
             failure: false

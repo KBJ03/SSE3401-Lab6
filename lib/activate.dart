@@ -38,7 +38,7 @@ class _ActivationScreenState extends State<ActivationScreen> {
 
           child: SingleChildScrollView(
             child: Container(
-              margin: EdgeInsets.fromLTRB(20, 50, 20, 50),
+              margin: const EdgeInsets.fromLTRB(20, 50, 20, 50),
 
               child: Column(
                 children: [

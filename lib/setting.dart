@@ -142,7 +142,9 @@ class _SettingsPageState extends State<SettingsPage> {
                                 ),
                                 SizedBox(width: screenSize.width * 0.05),
                                 ElevatedButton(
-                                  onPressed: () {},
+                                  onPressed: () {
+                                    FocusManager.instance.primaryFocus?.unfocus();
+                                  },
                                   style: ElevatedButton.styleFrom(
                                     padding: EdgeInsets.zero,
                                   ),

@@ -145,8 +145,8 @@ class _HomePageState extends State<HomePage> {
           actions: <Widget>[
             IconButton(
               icon: Icon(
-                  Icons.settings,
-                  size: isTablet ? 40 : 30,
+                Icons.settings,
+                size: isTablet ? 40 : 30,
               ),
               onPressed: () {},
             ),

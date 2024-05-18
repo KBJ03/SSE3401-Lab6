@@ -40,17 +40,17 @@ class _SignInScreenState extends State<SignInScreen> {
                         Column(
                           children: [
                             Image.asset(
-                                'images/upm_logo.png',
-                                width: isTablet ? screenSize.width * 0.2 : screenSize.width * 0.4,
-                                height: isTablet ? screenSize.height * 0.15 : screenSize.height * 0.1,
-                                fit: BoxFit.cover,
+                              'images/upm_logo.png',
+                              width: isTablet ? screenSize.width * 0.2 : screenSize.width * 0.4,
+                              height: isTablet ? screenSize.height * 0.15 : screenSize.height * 0.1,
+                              fit: BoxFit.cover,
                             ),
                             SizedBox(height: screenSize.height * 0.01),
                             Text('Welcome!',
                               style: TextStyle(
                                 fontSize: isTablet ? 50 : 30,
                                 fontWeight: FontWeight.w600,
-                            ),),
+                              ),),
                           ],
                         ),
                       ],
@@ -90,10 +90,10 @@ class _SignInScreenState extends State<SignInScreen> {
                                     margin: const EdgeInsets.fromLTRB(10, 0, 10, 0),
 
                                     child: Text('Enter your mobile number to activate your account.',
-                                    style: TextStyle(
-                                      fontSize: isTablet ? 30 : 18,
-                                      fontWeight: FontWeight.normal,
-                                    ),
+                                      style: TextStyle(
+                                        fontSize: isTablet ? 30 : 18,
+                                        fontWeight: FontWeight.normal,
+                                      ),
                                       maxLines: 2,
                                       overflow: TextOverflow.ellipsis,
                                     ),
@@ -158,7 +158,7 @@ class _SignInScreenState extends State<SignInScreen> {
                                           },
                                         ),
                                       ),
-                                  ],
+                                    ],
                                   ),
                                 ),
                               ),
@@ -202,7 +202,7 @@ class _SignInScreenState extends State<SignInScreen> {
                                         MaterialPageRoute(builder: (context) => const ActivationScreen()),
                                       );
                                     }
-                                    : null,
+                                        : null,
                                     child: Text('Get Activation Code',
                                       style: TextStyle(
                                         fontSize: isTablet ? 28 : 18,
@@ -212,11 +212,11 @@ class _SignInScreenState extends State<SignInScreen> {
                                   ),
                                 ),
                               ),
-                          ],
+                            ],
                           ),
                         ),
                       ),
-                  ],
+                    ],
                   ),
                   Container(
                     width: isTablet ? screenSize.width * 0.9 : screenSize.width * 0.9,
@@ -242,16 +242,16 @@ class _SignInScreenState extends State<SignInScreen> {
                         SizedBox(height: screenSize.height * 0.02),
                         Flexible(
                           child: Text('Copyright UPM & Kejuruteraan minyak Swait CCS Sdn. Bhd.',
-                              style: TextStyle(
-                              fontSize: isTablet ? 22 : 16,
-                              fontWeight: FontWeight.normal
+                            style: TextStyle(
+                                fontSize: isTablet ? 22 : 16,
+                                fontWeight: FontWeight.normal
                             ),
                             maxLines: 2,
                             overflow: TextOverflow.ellipsis,
                             textAlign: TextAlign.center,
                           ),
                         ),
-                    ],
+                      ],
                     ),
                   )
                 ],

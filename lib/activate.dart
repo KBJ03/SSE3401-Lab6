@@ -197,7 +197,8 @@ class _ActivationScreenState extends State<ActivationScreen> {
                                       context,
                                       MaterialPageRoute(builder: (context) => const HomePage()),
                                     );
-                                  } : null,
+                                  }
+                                      : null,
                                   child: Text('Activate',
                                     style: TextStyle(
                                       fontSize: isTablet ? 28 : 18,

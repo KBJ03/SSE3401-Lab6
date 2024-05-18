@@ -45,7 +45,7 @@
       publishing:
         email:
           recipients:
-            - chuanzhe03@gmail.com
+            - 215382@student.upm.edu.my
           notify:
             success: true
             failure: false
